@@ -1,0 +1,22 @@
+/* Enter your custom styles here */
+/*
+STYLES
+#F40089 Primary Color (magenta)
+#00FFFF Secondary Color (light blue)
+#535576 Third Color (dark grey)
+#33314D    to   #555376 (gradient)
+*/
+
+/*.sap.m.Shell{*/
+/*	 background: linear-gradient(red, yellow) !important;*/
+/*}*/
+
+/*#shellBody{*/
+/*	 background: linear-gradient(red, yellow) !important;*/
+/*}*/
+
+/*Background*/
+.sapUiGlobalBackgroundColor, .sapMShellGlobalInnerBackground {
+	 background: linear-gradient(#555376, #33314D) !important;
+	
+}

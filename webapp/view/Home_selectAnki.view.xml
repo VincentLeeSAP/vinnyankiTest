@@ -1,0 +1,28 @@
+<mvc:View controllerName="com.vinnyanki.controller.Home_selectAnki" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:layout="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:core="sap.ui.core">
+	<Page title="{i18n>title}">
+		<content>
+			<layout:Grid defaultSpan="L12 M12 S12" class="sapUiSmallMarginTop">
+				<layout:content>
+					<HBox justifyContent="Center" alignItems="Center">
+						<layoutData>
+							<layout:GridData span="L6 M6 S12" />
+						</layoutData>
+						
+						<Image src="img/blueCar_roundEdge.png" height="200px">
+								<!--<layout:GridData span="L12 M12 S12" linebreakL="true" linebreakM="true" linebreakS="true"/>-->
+						
+						</Image>
+					</HBox>
+					<HBox justifyContent="Center" alignItems="Center">
+						<layoutData>
+							<layout:GridData span="L6 M6 S12" />
+						</layoutData>
+						<Image src="img/thermo.jpg" height="200px">
+						</Image>
+					</HBox>
+				</layout:content>
+			</layout:Grid>
+		</content>
+	</Page>
+</mvc:View>

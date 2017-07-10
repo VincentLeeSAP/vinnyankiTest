@@ -1,0 +1,19 @@
+<core:FragmentDefinition xmlns="sap.m"
+	xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout">
+
+	<Dialog id="dialogMqttGroup" title="Insert Group to Connect">
+
+		<Panel id="panelDate" visible="true">
+			<MaskInput id="idInputGroup" mask="~~~~~~~~~~~~~~~"
+				width="100%" placeholder="Enter Group to Connect...">
+				<rules>
+					<MaskInputRule maskFormatSymbol="~" regex="[A-Za-z0-9]" />
+				</rules>
+			</MaskInput>
+		</Panel>
+
+		<endButton>
+			<Button text="Connect" press="connectToMqtt" />
+		</endButton>
+	</Dialog>
+</core:FragmentDefinition>
